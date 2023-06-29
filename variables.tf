@@ -2,6 +2,10 @@ variable "hcloud_token" {
   # default = <your-api-token>
 }
 
+variable "ssh_public_key" {
+  # default = <public-key>
+}
+
 variable "location" {
   default = "nbg1"
 }
